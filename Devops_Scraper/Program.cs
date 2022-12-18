@@ -45,7 +45,6 @@ namespace WebScraping
                 switch (input)
                 {
                     case "1":
-                        Console.WriteLine(prompt);
                         MAX_RESULTS = int.Parse(Console.ReadLine().ToLower());
                         break;
                     case "2":
